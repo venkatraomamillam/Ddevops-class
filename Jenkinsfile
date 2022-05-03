@@ -20,7 +20,7 @@ pipeline {
         
         stage('BUILD'){
             steps {
-                bat 'D:\Maven\maven\maven\bin\mvn clean install -DskipTests'
+                bat 'D:/Maven/maven/maven/bin/mvn clean install -DskipTests'
             }
             post {
                 success {
